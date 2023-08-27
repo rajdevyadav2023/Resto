@@ -1,0 +1,39 @@
+.events-banner{
+    height: 50vh;
+    padding: 1.5rem;
+    text-align: center;
+    background: url('../../img/bg-05.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content{
+    padding: 1rem 2rem;
+    background-color: #f1f1ff;
+    border-radius: 5px 2rem;
+}
+.banner-content h2{
+    font-size: 4rem;
+    color: #9d3a23;
+}
+
+/* responsiveness for phone screen  */
+@media (min-width:280px) and (max-width:480px) {
+    .events-banner{
+        height: 90vh;
+    }
+    .banner-content h2{
+        font-size: 2rem;
+    }
+}
+
+/* for tablet screen  */
+@media (min-width:481px) and (max-width:768px) {
+    .banner-content h2{
+        font-size: 3rem;
+    }
+}

@@ -1,0 +1,131 @@
+.home-story-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    padding: 2rem;
+}
+
+.home-story-header {
+    height: 50vh;
+    padding: 1.5rem;
+    text-align: center;
+    background: url('../../img/bg-10.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-story-header-content {
+    background-color: #f1f1ff;
+    padding: 1rem 2rem;
+    border-radius: 5px 2rem;
+}
+
+.home-story-header-content h2 {
+    font-size: 3rem;
+    color: #9d3a23;
+
+}
+
+.home-story-text {
+    width: 35%;
+    box-shadow: 0px 0px 10px #ddd;
+    padding: 2rem 1rem;
+    border-radius: 10px 2rem;
+}
+
+.home-story-heading h2 {
+    padding: .5rem;
+    text-align: center;
+    background-color: #ec7f24;
+    color: #fff;
+    border-radius: 5px 1rem;
+
+}
+
+.home-story-body {
+    padding: .5rem 0;
+}
+
+.home-story-body p {
+    padding: .5rem;
+    color: #777;
+    text-align: justify;
+}
+
+.home-story-btn {
+    padding: .5rem 0;
+    text-align: center;
+}
+
+.home-story-btn button {
+    width: 50%;
+    height: 40px;
+    background-color: #cd4c2f;
+    outline: none;
+    border: none;
+    color: #fff;
+    border-radius: 5px 1rem;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.home-story-btn button:hover {
+    background-color: #9d3a23;
+}
+
+.home-story-img {
+    width: 35%;
+    text-align: center;
+}
+
+.home-story-img img {
+    width: 90%;
+}
+
+/* responsiveness  */
+/* for phone screen  */
+@media (min-width:280px) and (max-width:480px) {
+    .home-story-content {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .home-story-img {
+        width: 60%;
+        margin-top: 2rem;
+    }
+
+    .home-story-text {
+        width: 90%;
+    }
+}
+
+/* for tablet screen  */
+@media (min-width:481px) and (max-width:768px) {
+    .home-story-content {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .home-story-img {
+        width: 60%;
+        margin-top: 2rem;
+    }
+
+    .home-story-text {
+        width: 65%;
+    }
+}
+
+/* for laptop scree */
+@media (min-width:769px) and (max-width:1024px) {
+
+    .home-story-text {
+        width: 65%;
+    }
+}

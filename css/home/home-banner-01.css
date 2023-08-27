@@ -1,0 +1,83 @@
+.home-banner-01 {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f1f1ff;
+}
+
+.home-banner-01 .banner-img {
+    width: 35%;
+}
+
+.home-banner-01 img {
+    width: 100%;
+}
+
+.home-banner-01 .banner-text {
+    width: 40%;
+    background-color: #ec7f24;
+    padding: 2rem;
+    border-radius: 5px 3rem;
+}
+
+.home-banner-01 h2 {
+    text-align: center;
+    color: white;
+}
+
+.home-banner-01 .form-control {
+    padding: .5rem 0;
+}
+
+.home-banner-01 input {
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: #aaa;
+    border-radius: 3px 1rem;
+    text-align: center;
+}
+
+.home-banner-01 .btn-group {
+    padding: .5rem 0;
+}
+
+.home-banner-01 button {
+    border-radius: 3px 1rem;
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #cd4c2f;
+    color: white;
+    transition: all .5s ease;
+}
+
+.home-banner-01 button:hover {
+    background-color: #9d3a23;
+
+}
+
+
+/* responsiveness  */
+/* ------------for phone screen------------  */
+@media (min-width:280px) and (max-width:768px) {
+    .home-banner-01{
+        flex-direction: column;
+        height: auto;
+    }
+    .home-banner-01 .banner-img{
+        width: 60%;
+        text-align: center;
+    }
+    .home-banner-01 .banner-text{
+        width: 95%;
+        margin: .5rem auto;
+    }
+}

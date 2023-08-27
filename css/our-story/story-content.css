@@ -1,0 +1,46 @@
+.story-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 3rem;
+    background-color: #f1f1ff;
+}
+
+.story-text{
+    width: 60%;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px 3rem;
+}
+.story-text h2{
+    font-size: 2rem;
+    color: #9d3a23;
+
+}
+.story-text p{
+    text-align: justify;
+    color: #777;
+}
+.story-img{
+    width: 30%;
+}
+.story-img img{
+    width: 100%;
+}
+
+
+/* for phone screen  */
+@media (min-width:280px) and (max-width:1024px) {
+    .story-content{
+        flex-direction: column-reverse;
+        /* flex-direction: column; */
+padding: 1rem;
+    }
+    .story-text{
+        width: 100%;
+    }
+    .story-img{
+        width: 50%;
+        margin: 1rem 0;
+    }
+}

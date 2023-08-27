@@ -1,0 +1,102 @@
+
+.home-menu-header{
+    height: 60vh;
+    padding: 2rem;
+    text-align: center;
+    background: url('../../img/bg-03.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-menu-header-content{
+    background-color: #f1f1ff;
+    padding: 2rem 1rem;
+    border-radius: 5px 2rem;
+}
+.home-menu-header-content h2{
+    font-size: 4rem;
+    color: #9d3a23;
+}
+
+.home-menu-header-content p{
+    color: #777;
+}
+.home-menu-header-content a{
+    color: #ec7f24;
+    text-decoration: none;
+}
+.home-menu-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    padding: 2rem;
+    background-color: #f1f1ff;
+}
+.menu-category{
+    width: 30%;
+    min-width: 270px;
+    padding: .5rem;
+    border-radius: 5px 2rem;
+    margin: 2rem auto;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    transition: all .5s ease;
+    background-color: #ec7f24;
+    color: #ec7f24;
+
+    /* background: linear-gradient(to right,#ec7f24,#9d3a23 ); */
+}
+.menu-category:hover{
+    color: #9d3a23;
+    background-color: #9d3a23;
+    /* background: linear-gradient(to left,#ec7f24,#9d3a23 ); */
+
+}
+.menu-category h3{
+    font-size: 2rem;
+    background-color: #fff;
+    border-radius: 3px 1rem;
+    padding: .5rem ;
+}
+
+/* responsiveness for phone screen  */
+@media (min-width:280px) and (max-width:480px) {
+    .home-menu-header{
+        height: 90vh;
+    }
+    .home-menu-header-content h2{
+        font-size: 2rem;
+    }
+    .home-menu-header-content p{
+        padding: .5rem 0;
+        text-align: justify;
+    }
+    .menu-category{
+        padding: 1rem;
+        margin: .5rem auto;
+    }
+}
+
+/* responsiveness for tablet screen  */
+@media (min-width:481px) and (max-width:768px) {
+    .home-menu-header{
+        height: 90vh;
+    }
+    .home-menu-header-content h2{
+        font-size: 2rem;
+    }
+    .home-menu-header-content p{
+        padding: .5rem 0;
+        text-align: justify;
+    }
+    .menu-category{
+        padding: 1rem;
+        margin: .5rem auto;
+    }
+}

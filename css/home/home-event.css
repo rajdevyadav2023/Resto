@@ -1,0 +1,131 @@
+
+
+.home-event-header {
+    height: 60vh;
+    padding: 1.5rem;
+    text-align: center;
+    background: url('../../img/bg-15.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-event-header-content {
+    background-color: #f1f1ff;
+    padding: 1rem 2rem;
+    border-radius: 5px 2rem;
+}
+
+.home-event-header-content h2 {
+    font-size: 3rem;
+    color: #9d3a23;
+}
+
+.home-event-header-content p {
+    color: #777;
+}
+
+.home-event-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f1f1ff;
+}
+
+.home-event-text {
+    width: 40%;
+    text-align: center;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 5px 2rem;
+
+
+}
+
+.home-event-text h2 {
+    color: #ec7f24;
+    font-size: 2rem;
+}
+
+.home-event-text p {
+    color: #777;
+}
+
+.home-event-btn button {
+    margin-top: 1rem;
+    height: 40px;
+    outline: none;
+    border: none;
+    padding: 0 2rem;
+    border-radius: 3px 1rem;
+    color: white;
+    transition: all .5s ease;
+    background-color: #cd4c2f;
+    cursor: pointer;
+}
+
+.home-event-btn button:hover {
+    background-color: #9d3a23;
+}
+
+.home-event-img {
+    width: 30%;
+}
+
+.home-event-img img {
+    width: 100%;
+}
+
+/* responsiveness for phone screen  */
+@media (min-width:280px) and (max-width:480px) {
+    .home-event-header{
+        height: 90vh;
+    }
+    .home-event-header-content h2{
+        font-size: 2rem;
+    }
+    .home-event-content{
+        flex-direction: column;
+        height: auto;
+        padding: 2rem 0;
+
+    }
+     .home-event-text{
+        width: 90%;
+     }
+     .home-event-img{
+        display: none;
+     }
+}
+
+
+/* responsiveness for tablet screen  */
+@media (min-width:481px) and (max-width:768px) {
+    .home-event-content{
+        flex-direction: column;
+        height: auto;
+        padding: 2rem 0;
+    }
+    .home-event-text{
+        width: 90%;
+     }
+     .home-event-img{
+        display: none;
+     } 
+}
+
+/* responsiveness for laptop screen  */
+@media (min-width:769px) and (max-width:1024px) {
+    .home-event-content{
+        padding: 2rem 0;
+    }
+    .home-event-text{
+        width: 45%;
+    }
+    .home-event-img{
+        width: 45%;
+    }
+}
